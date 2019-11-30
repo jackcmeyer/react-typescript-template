@@ -43,7 +43,7 @@
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@commitlint/prompt": "^8.2.0",
-    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.8.0",
     "commitizen": "^4.0.3",
     "commitlint-config-cz": "^0.12.1",
