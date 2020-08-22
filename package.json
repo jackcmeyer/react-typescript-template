@@ -13,7 +13,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.3.0",
-    "typescript": "3.9.7"
+    "typescript": "4.0.2"
   },
   "scripts": {
     "commit": "npx git-cz",
