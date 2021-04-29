@@ -1,0 +1,64 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: saturday
+    time: "11:00"
+    timezone: US/Central
+  open-pull-requests-limit: 99
+  assignees:
+  - jackcmeyer
+  ignore:
+  - dependency-name: eslint-plugin-jest
+    versions:
+    - 24.1.5
+    - 24.2.1
+    - 24.3.2
+    - 24.3.3
+    - 24.3.4
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.22.0
+    - 7.23.1
+  - dependency-name: husky
+    versions:
+    - 5.0.9
+    - 5.1.1
+    - 5.1.3
+    - 5.2.0
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.25
+    - 14.14.27
+    - 14.14.31
+    - 14.14.34
+    - 14.14.35
+    - 14.14.37
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.21
+  - dependency-name: "@types/react-dom"
+    versions:
+    - 17.0.1
+    - 17.0.2
+  - dependency-name: typescript
+    versions:
+    - 4.1.5
+    - 4.2.2
+    - 4.2.3
+  - dependency-name: "@commitlint/config-conventional"
+    versions:
+    - 12.0.1
+  - dependency-name: "@commitlint/prompt"
+    versions:
+    - 12.0.1
+  - dependency-name: "@types/react"
+    versions:
+    - 17.0.1
+    - 17.0.2
+  - dependency-name: react-scripts
+    versions:
+    - 4.0.1
+    - 4.0.2
